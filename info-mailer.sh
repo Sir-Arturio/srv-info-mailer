@@ -1,4 +1,4 @@
-if [  $# -eq 0 ]
+if [ ! "${1}" ]
 then
 	echo "Please provide an email address to send to."
 	exit 1
